@@ -70,7 +70,7 @@ Dataset assumptions used by this project:
 - Class I also comes from LFW, but with fewer samples
 - Class J is your own custom dataset
 
-If classes A-H are not already available locally, `train.py` can fetch them from the configured `--base_url` when `--data_dir` is omitted. `transfer.py` can also try to fetch missing A-I classes unless `--no_download_missing` is used. Class J still needs to exist locally in your dataset folder.
+If classes A-H are not already available locally, `train.py` can fetch them from the configured `--base_url` when `--data_dir` is omitted. `transfer.py` can also try to fetch missing A-I classes unless `--no_download_missing` is used. Class J still needs to exist locally in your dataset folder. Please note if you want to run yourself you might want to import the dataset yourself prior
 
 ## Using The Pipeline
 
