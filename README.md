@@ -88,8 +88,6 @@ Useful options:
 - `--img_size 160`
 - `--epochs 80`
 - `--batch_size 16`
-- `--no_face_crop`
-- `--no_clahe`
 
 ### 2. Transfer from A-H to A-J
 
@@ -102,9 +100,6 @@ Useful options:
 - `--head_epochs 25`
 - `--finetune_epochs 30`
 - `--no_replay`
-- `--no_download_missing`
-- `--no_face_crop`
-- `--no_clahe`
 
 ### 3. Run inference
 
@@ -124,10 +119,7 @@ Useful inference options:
 
 - `--threshold 0.0` to always force a label
 - `--tta 2` for test-time augmentation averaging
-- `--prototype_weight 0.45`
-- `--smooth 4`
-- `--mirror`
-- `--no_unknown`
+- `--max_faces 1 for number of predictions to be set to 1
 
 ## Notes And Suggestions
 
